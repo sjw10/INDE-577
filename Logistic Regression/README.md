@@ -19,9 +19,10 @@ In order to make our predictions, we will use a sigmoid function as our activati
 When we graph the sigmoid function, we can see that it has a lot of nice properties that make it a very nice fit for logistic regression. First, the function ranges from 0 to 1, making it ideal for graphing probabilities. Second, it has a very nice, smooth S curve that gives percentages in a very logical manner. Finally, it is a relatively simple function to implement. Although there are many other logical choices of functions that can be used in logistic regression, we will focus on the sigmoid function. However, in my code, I will also try various other functions and see the results.
 
 ### Binary Cross Entropy Loss Function
-
+In order to calculate the loss/error function, we will implement a version of the Bernoulli formula for binary probabilities to calculate loss. The general idea is that for binary probabilities, the probability (y) that a object is "x" means that the probability that the object is not "x" is 1-y. For the weather example, if there is a 70% chance that it will rain, then there is a 30% chance that it won't rain. Exact implementation of this code will be discussed more in depth within the code.
 
 ### Tasks
 Try other functions other than sigmoid?
+Talk about bernoulli within the code
 
 
