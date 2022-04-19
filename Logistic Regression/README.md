@@ -1,2 +1,27 @@
 # Logistic Regression
-In the Perceptron Model, we learned how to classify two objects. However, what happens when the data overlaps? Classification gets a lot harder. This is where logistic regression comes in.
+In the Perceptron Model, we learned how to classify two objects. However, what happens when the data overlaps? Classification gets a lot harder. This is where logistic regression comes in. 
+
+### Introduction to linearly separable vs. non-linearly separable 
+[insert image here]
+Linearly separable means that the data is able to be completely separate. There is no overlap between the data and it is very easy to tell the different classes apart, as well as predict what class another object might belong to given certain attributes. However, non-linearly separable means that there is overlap in the data. Sometimes it might be easy to predict which class an unknown object belongs to, but other times it isn't so clear. Maybe the data is skewed towards the object being one class, but it could still be another class.
+
+As an example, maybe you are trying to differentiate between red and white wine. Just through factors such as flavor and texture you can easily distinguish between the two types of wine. This is linearly separable data. However, it might not be as easy to tell the difference between different types of red wine. There can be significant overlap between the various types, as flavor and texture could be very similar. This is non-linearly separable data.
+
+For linearly separable data, we can use the perceptron model and other similar models to perform classification. But how do we deal with non-linearly separable data? This is where logistic regression comes in.
+
+### Logistic Regression Overview
+Logistic regression deals with probabilities. Instead of saying that a object is definitely one class or another, it gives the probability that the object is a certain class. The most intuitive example could be talking about the weather. When the weatherman is predicting whether it will rain or not, he doesn't say "It definitely will rain" or "It definitely won't rain". Instead, he offers a percentage such as "There is a 40% chance of rain". What makes this example even more similar to machine learning is that the weatherman takes past data about various weather factors and compares the attributes to today's weather to make his prediction. In fact, weather services very likely use machine learning to make their predictions.
+
+### Sigmoid Function
+In order to make our predictions, we will use a sigmoid function as our activation function. Here is what the sigmoid function is: 
+[insert equation here].
+
+When we graph the sigmoid function, we can see that it has a lot of nice properties that make it a very nice fit for logistic regression. First, the function ranges from 0 to 1, making it ideal for graphing probabilities. Second, it has a very nice, smooth S curve that gives percentages in a very logical manner. Finally, it is a relatively simple function to implement. Although there are many other logical choices of functions that can be used in logistic regression, we will focus on the sigmoid function. However, in my code, I will also try various other functions and see the results.
+
+### Binary Cross Entropy Loss Function
+
+
+### Tasks
+Try other functions other than sigmoid?
+
+
