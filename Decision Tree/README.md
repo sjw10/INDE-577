@@ -18,4 +18,10 @@ Say your animal is a cat.
 
 ... and so on until you reach the conclusion that it is a cat. 
 
-In fact, this is similar to the game 20 questions where you try to guess an object in under a series of 20 questions. As we can see, the questions get narrower and narrower with each subsequent question.
+In fact, this is similar to the game 20 questions where you try to guess an object in under a series of 20 questions. As we can see, the questions get narrower and narrower with each subsequent question. The same idea works for decision trees in machine learning. The machine splits the data into two categories and keeps splitting until all the data is split into its correct classification.
+
+### Implementation
+The implementation for decision trees is fairly intuitive. First, you have to understand how the structure of decision trees work. There are two kinds of elements in a decision tree: nodes and branches. You start at the very top with the root node: all your training data. Next, the machine splits the node into two branches and two new nodes. These nodes also fall into two categories: decision nodes and leaf nodes. Decision nodes can be split further into the correct category while leaf nodes are fully classified. Each branch-off is one depth. The computer then continues to sort the nodes until it classifies all the data or until a max-depth is satisfied.
+
+### Potential issues
+Decision trees are an extremely easy way to classify data and classify data relatively accurately. However, the problem with decision trees is that because they can continuously sort data until a decision is made, they are notorious for overfitting data. Decision trees tend to place too much emphasis on outliers.
