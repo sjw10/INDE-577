@@ -17,7 +17,7 @@ In the Logistic Regression module, we discussed the sigmoid function and its use
 Backpropagation is very important in many types of machine learning, including the multi-layer perceptron model. It is used to test points and minimize the error in order to find the best possible output given the inputs. Backpropagation is accomplished by taking the gradient of the error and using Stochastic Gradient Descent.
 
 ### TensorFlow
-We will be using TensorFlow to implement this algorithm. TensorFlow is an open sourced library designed by Google that can complete a variety of tasks, but is made especially for deep neural networks, which is exactly what the multi-layer perceptron is. This is what makes it the ideal choice for coding.
+While we could hard-code all of the above steps, we will be using TensorFlow to implement this algorithm. TensorFlow is an open sourced library designed by Google that can complete a variety of tasks, but is made especially for deep neural networks, which is exactly what the multi-layer perceptron is. This is what makes it the ideal choice for coding.
 
 ### Tasks
 Find deep learning data set??? Wine might work
