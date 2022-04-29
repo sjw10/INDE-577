@@ -31,7 +31,7 @@ Based on our confusion matrix, we can also print out a classification report. Ou
 
 **Recall** is defined as the number of true positive over the number of true positives plus the number of false negatives.
 
-There quantities are related to the **$F_1$-score**, which is defined as the harmonic mean of precision and recall.
+There quantities are related to the **F1-score**, which is defined as the harmonic mean of precision and recall.
 
 Precision and recall are especially useful when the number in each category is imbalanced, such as how there tend to be way more negatives for COVID than positives. I will be using the classification report from Scikit-Learn.
 
@@ -40,7 +40,18 @@ There are a total of ten modules in this GitHub Repository. They can be found in
 
 ### Supervised Learning:
 1. [Perceptron Model](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/1.%20Perceptron%20Model)
+2. [Gradient Descent](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/2.%20Gradient%20Descent)
+3. [Linear Regression](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/3.%20Linear%20Regression)
+4. [Logistic Regression](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/4.%20Logistic%20Regression)
+5. [Multi-Layer Perceptron](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/5.%20Multi-Layer%20Perceptron)
+6. [K-Nearest Neighbors](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/6.%20K-Nearest%20Neighbors)
+7. [Decision Tree](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/7.%20Decision%20Tree)
+8. [Ensemble](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/8.%20Ensemble)
 
-### Tasks
-Add load_wine dataset to description
-Talk about skicit-learn as well as error measurements
+### Unsupervised Learning:
+9. [K-Means Clustering](https://github.com/sjw10/INDE-577/tree/main/Unsupervised%20Learning/9.%20K%20Means%20Clustering)
+10. [Principal Component Analysis](https://github.com/sjw10/INDE-577/tree/main/Unsupervised%20Learning/10.%20Principal%20Component%20Analysis)
+
+### Coding Language: Python
+All modules will be performed in Python. Also, a lot of the modules utilize Scikit-Learn, a library in Python that makes machine learning a lot easier.
+You can learn more about Scikit-Learn here: [Scikit-Learn](https://scikit-learn.org/stable/index.html)
