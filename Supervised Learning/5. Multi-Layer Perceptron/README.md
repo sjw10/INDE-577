@@ -1,6 +1,9 @@
 # Multi-Layer Perceptron
-The perceptron model we explored previously was the single Perceptron model. This meant that you put all your inputs into a single function to get a single output. However, for the multi-layer perceptron there are multiple layers with multiple nodes. The images below can help visualize the idea:
-[insert single and multi-layer perceptron picture]
+The perceptron model we explored previously was the single Perceptron model. This meant that you put all your inputs into a single function to get a single output. However, for the multi-layer perceptron there are multiple layers with multiple nodes. The image below can help visualize the idea:
+
+![multilayer](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.oBTKz-elnata0w5Htvg95AHaD6%26pid%3DApi&f=1)
+
+The image on the left (a) is an example of a single layer perceptron model while the image on the right (b) is an example of a multi layer perceptron model.
 
 ### Implementation
 The implementation of the Multi-Layer Perceptron is as follows:
@@ -19,7 +22,8 @@ Backpropagation is very important in many types of machine learning, including t
 ### TensorFlow
 While we could hard-code all of the above steps, we will be using TensorFlow to implement this algorithm. TensorFlow is an open sourced library designed by Google that can complete a variety of tasks, but is made especially for deep neural networks, which is exactly what the multi-layer perceptron is. This is what makes it the ideal choice for coding.
 
-### Tasks
-Find deep learning data set??? Wine might work
+# Task
+In this module, instead of using a wine dataset, I will instead be using the fashion mnist dataset. This dataset classifies various pictures into different categories of clothing.
+
 
 
