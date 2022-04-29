@@ -26,21 +26,20 @@ This matrix is extremely relevant to our current situation with COVID-19. As we 
 
 ### Classification Report
 Based on our confusion matrix, we can also print out a classification report. Our classification report contains three categories: Precision, Recall, and F1-Score.
-**Precision** ($P$) is defined as the number of true positives ($T_p$) over the number of true positives plus the number of false positives ($F_p$):
-$$
-P = \frac{T_p}{T_p + F_p}
-$$
 
-**Recall** ($R$) is defined as the number of true positives ($T_P$) over the number of true positives plus the number of false negatives ($F_n$):
-$$
-R = \frac{T_p}{T_p + F_n}
-$$
+**Precision** is defined as the number of true positives over the number of true positives plus the number of false positives.
 
-There quantities are related to the **$F_1$-score**, which is defined as the harmonic mean of precision and recall:
-$$
-F_1 = 2 \frac{P\times R}{P+R}
-$$
+**Recall** is defined as the number of true positive over the number of true positives plus the number of false negatives.
 
+There quantities are related to the **$F_1$-score**, which is defined as the harmonic mean of precision and recall.
+
+Precision and recall are especially useful when the number in each category is imbalanced, such as how there tend to be way more negatives for COVID than positives. I will be using the classification report from Scikit-Learn.
+
+## Modules
+There are a total of ten modules in this GitHub Repository. They can be found in either supervised or unsupervised learning. The modules are ordered as follows:
+
+### Supervised Learning:
+1. [Perceptron Model](https://github.com/sjw10/INDE-577/tree/main/Supervised%20Learning/1.%20Perceptron%20Model)
 
 ### Tasks
 Add load_wine dataset to description
