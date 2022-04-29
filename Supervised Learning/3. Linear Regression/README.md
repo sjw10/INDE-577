@@ -11,7 +11,7 @@ In order to find the best fit line, we will perform gradient descent on our data
 ### Batch Gradient Descent
 1. Start by selecting a learning rate and initial values.
 2. Calculate the full gradient by calculating the gradient for all the training data
-3. Compute [insert math equation here] to go in direction of minimum
+3. Subtract the gradient multiplied by a learning rate (alpha) from the data points to go in direction of minimum
 4. Repeat steps 2-3 until a minimum is reached
 
 Unfortunately, while batch gradient descent always finds the exact direction towards the minimum, it can be extremely slow, since you have to calculate the gradient for every single point. This can especially take a long time if you have a lot of data points. It is also unnecessary. This is where Stochastic Gradient Descent comes in.
