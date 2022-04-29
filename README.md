@@ -52,6 +52,6 @@ There are a total of ten modules in this GitHub Repository. They can be found in
 9. [K-Means Clustering](https://github.com/sjw10/INDE-577/tree/main/Unsupervised%20Learning/9.%20K%20Means%20Clustering)
 10. [Principal Component Analysis](https://github.com/sjw10/INDE-577/tree/main/Unsupervised%20Learning/10.%20Principal%20Component%20Analysis)
 
-### Coding Language: Python
+## Coding Language: Python
 All modules will be performed in Python. Also, a lot of the modules utilize Scikit-Learn, a library in Python that makes machine learning a lot easier.
 You can learn more about Scikit-Learn here: [Scikit-Learn](https://scikit-learn.org/stable/index.html)
