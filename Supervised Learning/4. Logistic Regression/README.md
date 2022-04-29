@@ -15,6 +15,7 @@ Logistic regression deals with probabilities. Instead of saying that a object is
 ### Sigmoid Function
 In order to make our predictions, we will use a sigmoid function as our activation function. Here is what the sigmoid function is: 
 ![Sigmoid](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fartificialintelligencestechnology.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fsigmoid-function.png&f=1&nofb=1)
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fartificialintelligencestechnology.com%2Fwp-content%2Fuploads%2F2021%2F05%2Fsigmoid-function.png&f=1&nofb=1" width=50% height=50%>
 
 When we graph the sigmoid function, we can see that it has a lot of nice properties that make it a very nice fit for logistic regression. First, the function ranges from 0 to 1, making it ideal for graphing probabilities. Second, it has a very nice, smooth S curve that gives percentages in a very logical manner. Finally, it is a relatively simple function to implement. Although there are many other logical choices of functions that can be used in logistic regression, we will focus on the sigmoid function. However, in my code, I will also try various other functions and see the results.
 
