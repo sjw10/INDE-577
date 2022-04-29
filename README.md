@@ -1,8 +1,7 @@
 # INDE-577 Data Science and Machine Learning
 Welcome to the INDE-577 Github Repository of Sarah Wang, a current freshman at Rice University. This Github Repository derives itself from the various lessons learned in Randy Davila's INDE-577 Data Science and Machine Learning Class. 
 
-<img src="/INDE-577/machine_learning.jpg">
-![machine learning](https://github.com/sjw10/INDE-577/blob/main/machine_learning.jpg?raw=true "Employee Data title")
+![machine learning](https://github.com/sjw10/INDE-577/blob/main/machine_learning.jpg)
 ![machine learning](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcodingcompiler.com%2Fwp-content%2Fuploads%2F2019%2F07%2FWhat-is-Machine-Learning.jpg&f=1&nofb=1)
 
 ## Datasets
