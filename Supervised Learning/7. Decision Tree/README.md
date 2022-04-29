@@ -1,6 +1,6 @@
 # Decision Trees
 Decision Trees are another example of non-parametric models used for classification and regression.
-<img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1jnx9ba8s6j9r.cloudfront.net%2Fblog%2Fwp-content%2Fuploads%2F2015%2F01%2FDecision-Tree-Example-7-Decision-tree-Edureka.png&f=1&nofb=1" height = "80%" width = "80%"
+<img src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1jnx9ba8s6j9r.cloudfront.net%2Fblog%2Fwp-content%2Fuploads%2F2015%2F01%2FDecision-Tree-Example-7-Decision-tree-Edureka.png&f=1&nofb=1" height = "80%" width = "80%">
 
 ### Real World Example
 The idea behind the decision tree is relatively intuitive. We probably have all seen the questionaires that ask us a series of yes or no questions to determine the best possible choice for us. A simple example is like those worksheets you probably filled out in elementary school in order to determine the right animal. The questions might go something like this:
@@ -27,3 +27,5 @@ The implementation for decision trees is fairly intuitive. First, you have to un
 ### Potential issues
 Decision trees are an extremely easy way to classify data and classify data relatively accurately. However, the problem with decision trees is that because they can continuously sort data until a decision is made, they are notorious for overfitting data. Decision trees tend to place too much emphasis on outliers.
 
+# Task
+In this module, I will take many of the same attributes that I have been using in the previous modules (magnesium, non-flavanoid phenols, etc.) to try to classify the different wines in the load wine dataset and see how the Decision Tree performs.
