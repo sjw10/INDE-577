@@ -1,9 +1,12 @@
 # Gradient Descent
 In the Perceptron Model, we explored using a predefined rule to improve our predictions. However, the gradient descent is a way to optimize our predictions (after all, efficiency is very important in coding!)
+![Gradient Descent](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2Fw7ARo.png&f=1&nofb=1)
 
 ### General Idea of Gradient Descent
 
 To better understand how gradient descent works, I will use a real world example. Because this whole Github repository is centered around wine, I will use the example of wine in a wine glass.
+
+![Wine Glass](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.boutiquekozy.ca%2Fwp-content%2Fuploads%2F2018%2F10%2F490407550-U1-Usage-shot.jpg&f=1&nofb=1)
 
 We have probably all seen a while glass: it is shaped like a parabola, with a minimum (or bottom). When we pour wine into the glass, where does the wine go? Does the wine stay on the edges of the wine glass? No, it automatically falls to the bottom of the glass. No matter how we pour the wine, it always ends up at the bottom. Now think of the wine glass like a cost (or error) function. We are trying to minimize the error as much as possible. Thus, we are trying to find the bottom of the wine glass where when we pour the wine, it falls to the bottom.
 
@@ -16,3 +19,6 @@ Now, in actual implementation, we will take the gradient (or first derivative) o
 
 ## Limitations of Gradient Descent
 As I have said earlier, there can be multiple minimums in a function, but through gradient descent, we are unable to tell whether or not a minimum is a local or global minimum. Thus, gradient descent can get stuck trying to decide between multiple minima.
+
+# Task
+In this module, instead of using any large datasets, I will instead just demonstrate the idea behind gradient descent using various functions like the quadratic function and the sine equation. However, I will explain and utilize gradient descent in more detail in the following module for linear regression.
