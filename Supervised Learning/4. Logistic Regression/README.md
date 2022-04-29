@@ -3,6 +3,7 @@ In the Perceptron Model, we learned how to classify two objects. However, what h
 
 ### Introduction to linearly separable vs. non-linearly separable 
 ![NonLinear](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1542%2F1*5l08QfsUsrsOxcPzfDoStg.png&f=1&nofb=1)
+
 Linearly separable means that the data is able to be completely separate. There is no overlap between the data and it is very easy to tell the different classes apart, as well as predict what class another object might belong to given certain attributes. However, non-linearly separable means that there is overlap in the data. Sometimes it might be easy to predict which class an unknown object belongs to, but other times it isn't so clear. Maybe the data is skewed towards the object being one class, but it could still be another class.
 
 As an example, maybe you are trying to differentiate between red and white wine. Just through factors such as flavor and texture you can easily distinguish between the two types of wine. This is linearly separable data. However, it might not be as easy to tell the difference between different types of red wine. There can be significant overlap between the various types, as flavor and texture could be very similar. This is non-linearly separable data.
