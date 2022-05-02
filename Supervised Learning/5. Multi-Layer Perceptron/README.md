@@ -23,7 +23,7 @@ Backpropagation is very important in many types of machine learning, including t
 While we could hard-code all of the above steps, we will be using TensorFlow to implement this algorithm. TensorFlow is an open sourced library designed by Google that can complete a variety of tasks, but is made especially for deep neural networks, which is exactly what the multi-layer perceptron is. This is what makes it the ideal choice for coding.
 
 # Task
-In this module, instead of using a wine dataset, I will instead be using the fashion mnist dataset. This dataset classifies various pictures into different categories of clothing. I will be implementing the multi-layer perceptron model to try to classify these types of clothing (there are ten in total).
+In this module, instead of using a wine dataset, I will instead be using the fashion mnist dataset. This dataset classifies various pictures into different categories of clothing. I will be implementing the multi-layer perceptron model to try to classify these types of clothing (there are ten types in total).
 
 
 
