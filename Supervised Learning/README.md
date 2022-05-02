@@ -1,5 +1,5 @@
 # Supervised Learning
-Supervised machine learning is a type of machine learning that maps an input to an output. What it does is that it takes training data with features and targets and tries to match the features to the respective targets. It will then use these same methods to take unknown attributes and match it to its respective target.
+Supervised machine learning is a type of machine learning that maps an input to an output. What it does is that it takes training data with features and targets and tries to match the features to the respective targets. It will then use these same methods to take unknown attributes and match them to their respective targets.
 
 ![Supervised Learning](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.digitalvidya.com%2Fwp-content%2Fuploads%2F2019%2F05%2FSupervised-Learning.jpg&f=1&nofb=1)
 
