@@ -2,7 +2,6 @@
 In the Perceptron Model, we learned how to classify two objects. However, what happens when the data overlaps? Classification gets a lot harder. This is where logistic regression comes in. 
 
 ### Introduction to linearly separable vs. non-linearly separable 
-![NonLinear](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1542%2F1*5l08QfsUsrsOxcPzfDoStg.png&f=1&nofb=1)
 
 Linearly separable means that the data is able to be completely separate. There is no overlap between the data and it is very easy to tell the different classes apart, as well as predict what class another object might belong to given certain attributes. However, non-linearly separable means that there is either overlap in the data  or the data can't be split by a linear line. Sometimes it might be easy to predict which class an unknown object belongs to, but other times it isn't so clear. Maybe the data is skewed towards the object being one class, but it could still be another class.
 
@@ -11,6 +10,7 @@ As an example, maybe you are trying to differentiate between red and white wine.
 For linearly separable data, we can use the perceptron model and other similar models to perform classification. But how do we deal with non-linearly separable data? This is where logistic regression comes in.
 
 ### Logistic Regression Overview
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.IHjXRUgukjF8VApok6tfsQHaCW%26pid%3DApi&f=1" width=80% height=80%>
 Logistic regression deals with probabilities. Instead of saying that a object is definitely one class or another, it gives the probability that the object is a certain class. The most intuitive example could be talking about the weather. When the weatherman is predicting whether it will rain or not, he doesn't say "It definitely will rain" or "It definitely won't rain". Instead, he offers a percentage such as "There is a 40% chance of rain". What makes this example even more similar to machine learning is that the weatherman takes past data about various weather factors and compares the attributes to today's weather to make his prediction. In fact, weather services very likely use machine learning to make their predictions.
 
 ### Sigmoid Function
