@@ -27,4 +27,4 @@ Stochastic Gradient Descent is often referred to as a drunk man stumbling his wa
 ![Stochastic](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdatascience-enthusiast.com%2Ffigures%2Fkiank_sgd.png&f=1&nofb=1)
 
 # Task
-In this module I will try to perform linear regression on both red and white wine datasets to compare the effectiveness of linear regression on more and less linear data.
+In this module I will try to perform linear regression on both red and white wine quality datasets to compare the effectiveness of linear regression on more and less linear data.
