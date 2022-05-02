@@ -21,4 +21,6 @@ Now, in actual implementation, we will take the gradient (or first derivative) o
 As I have said earlier, there can be multiple minimums in a function, but through gradient descent, we are unable to tell whether or not a minimum is a local or global minimum. Thus, gradient descent can get stuck trying to decide between multiple minima.
 
 # Task
-In this module, instead of using any large datasets, I will instead just demonstrate the idea behind gradient descent using various functions like the quadratic function and the sine equation. However, I will explain and utilize gradient descent in more detail in the following module for linear regression.
+In this module, instead of mainly using any large datasets, I will instead just demonstrate the idea behind gradient descent using various functions like the quadratic function and the sine equation. However, I will explain and utilize gradient descent in more detail in the following module for linear regression, as well as offer an introduction to Stochastic gradient descent using the Penguins dataset.
+
+The penguins dataset basically offers various attributes of penguins that we can then use to classify the species. However, in this module I will not seek to classify the species but instead use linear regression to find the correlation between flipper length and body mass. 
