@@ -1,5 +1,5 @@
 # Gradient Descent
-In the Perceptron Model, we explored using a predefined rule to improve our predictions. However, the gradient descent is a way to optimize our predictions (after all, efficiency is very important in coding!)
+In the Perceptron Model, we explored using a predefined rule to improve our predictions. Gradient descent is a yet another way to optimize our predictions (after all, efficiency is very important in coding!)
 ![Gradient Descent](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2Fw7ARo.png&f=1&nofb=1)
 
 ### General Idea of Gradient Descent
